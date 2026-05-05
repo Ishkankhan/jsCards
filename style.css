@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+.header-row.top {
+  display: flex;
+  justify-content: space-betwee;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+  border-bottom: 1px solid #ddd;
+}
+.header-row.search {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+  border-bottom: 1px solid #ddd;
+}
+#searchInput {
+  padding: 8px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px; 
+}
+.search-btn {
+  padding: 8px 15px;
+  border:5px solid white;
+  border-radius: 0 4px 4px 0; 
+  background: #007BFF;
+  color: #fff;
+  cursor: pointer;
+}
+.login-btn{
+    padding: 8px 15px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 0 4px 4px 0; 
+    background: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+.login-btn:hover, .search-btn:hover {
+  background: #0056b3;
+}
+
+.username {
+  margin: 0;
+  color: #333;
+}
+main {
+  margin-top: 120px; 
+  padding: 20px;
+}
+
+.student-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 15px;
+  width: 250px;
+ 
+}
+
+.card h3 {
+  margin: 0;
+  color: #333;
+}
+
+.card p {
+  margin: 5px 0;
+  color: #555;
+}
